@@ -1,0 +1,5 @@
+#!/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

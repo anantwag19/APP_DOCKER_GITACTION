@@ -1,0 +1,13 @@
+prefix=/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv
+exec_prefix=/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv
+libdir=/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv/lib
+sharedlibdir=/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv/lib
+includedir=/Users/anantwaghmare/Desktop/Udemy_AI/DOCKER_CI_CD_GITHUBACTION/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
